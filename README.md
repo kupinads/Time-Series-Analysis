@@ -1,29 +1,29 @@
-Sales Forecasting Using Time Series Analysis
-Project Overview
-This project aims to develop and evaluate time series forecasting models to predict monthly sales for 50 products across 10 stores. The dataset consists of 5 years of historical sales data, with the goal of identifying the most accurate models to inform future sales strategies.
+# Sales Forecasting Using Time Series Analysis
 
-Objectives
-To analyze historical sales data and uncover patterns such as seasonality and trends.
-To categorize items and stores based on sales performance (high, medium, low).
-To fit and compare multiple time series models for each category to determine the best-performing model.
-Methodology
-Data Preprocessing:
+## Project Overview
 
-Normalize the data to improve model performance.
-Conduct exploratory data analysis (EDA) to identify patterns and trends.
-Categorization:
+This project focuses on developing and evaluating time series forecasting models to predict monthly sales for a single product in one store. The dataset consists of 5 years of historical sales data, aiming to identify the most accurate models to inform future sales strategies.
 
-Group items and stores into categories based on their sales performance.
-Modeling:
+## Objectives
 
-Train and evaluate multiple models (2-3 per category) using techniques such as:
-ARIMA
-Exponential Smoothing
-XGBoost
-RNN Models
-Prophet
-Naive Seasonal and Naive Drift
-Evaluation:
+- To analyze historical sales data and uncover patterns such as seasonality and trends for a specific product.
+- To explore and evaluate different time series models to determine the best fit for the sales data of the selected product.
 
-Assess model performance using metrics such as Mean Absolute Percentage Error (MAPE) and visualizations to ensure alignment with historical trends.
-Select the best-performing model for each group based on evaluation results.
+## Methodology
+
+1. **Data Preprocessing**: 
+   - Normalize the data to enhance model performance.
+   - Conduct exploratory data analysis (EDA) to identify patterns and trends specific to the product.
+
+2. **Modeling**:
+   - Train and evaluate multiple models using techniques such as:
+     - ARIMA
+     - Exponential Smoothing
+     - XGBoost
+     - RNN Models
+     - Prophet
+     - Naive Seasonal and Naive Drift
+
+3. **Evaluation**:
+   - Assess model performance using metrics such as Mean Absolute Percentage Error (MAPE) and visualizations to ensure alignment with historical trends.
+   - Select the best-performing model based on evaluation results.
