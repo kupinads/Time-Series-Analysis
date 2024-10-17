@@ -5,13 +5,15 @@
 This project focuses on developing and evaluating time series forecasting models to predict monthly sales for a single product in one store. The dataset consists of 5 years of historical sales data, aiming to identify the most accurate models to inform future sales strategies.
 
 ## Dataset:
+
 **Data source:**
 https://www.kaggle.com/competitions/demand-forecasting-kernels-only/data
+
 **Data fields:**
-date - Date of the sale data. There are no holiday effects or store closures.
-store - Store ID
-item - Item ID
-sales - Number of items sold at a particular store on a particular date.
+- date - Date of the sale data. There are no holiday effects or store closures.
+- store - Store ID
+- item - Item ID
+- sales - Number of items sold at a particular store on a particular date.
 
 ## Objectives
 
